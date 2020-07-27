@@ -90,7 +90,7 @@
                         android:layout_weight="1"
                         android:ems="10"
                         android:hint="Ingrese IP"
-                        android:inputType="textPersonName" />
+                        android:inputType="number" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -121,33 +121,35 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="241dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/TVSR"
-                    android:layout_width="62dp"
-                    android:layout_height="28dp"
-                    android:layout_marginStart="28dp"
-                    android:layout_marginLeft="28dp"
-                    android:layout_marginTop="40dp"
-                    android:text="SubRedes"
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TILNumSubredes"
+                    android:layout_width="301dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginLeft="36dp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ip" />
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <EditText
-                    android:id="@+id/ETSR"
-                    android:layout_width="53dp"
-                    android:layout_height="43dp"
-                    android:layout_marginStart="24dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginTop="32dp"
-                    android:ems="10"
-                    android:inputType="number"
-                    android:maxLength="2"
-                    app:layout_constraintStart_toEndOf="@+id/TVSR"
-                    app:layout_constraintTop_toBottomOf="@+id/ip" />
+                    <EditText
+                        android:id="@+id/ETSR"
+                        android:layout_width="297dp"
+                        android:layout_height="43dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="32dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Ingrese numero de Subredes"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        app:layout_constraintTop_toBottomOf="@+id/ip" />
+                </android.support.design.widget.TextInputLayout>
+
             </LinearLayout>
 
             <Button
