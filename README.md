@@ -1,8 +1,9 @@
-# App Subnetting🧬🔬
+# App Subnetting🕵️‍♂️👨‍💻
+
+<img align="right" src="https://media.giphy.com/media/SwfiLmelrWpM2QSeHB/giphy.gif" alt="App SubNetting" >
 
 This is a scolar project.
 En el siguiente trabajo se describirá el desarrollo técnico de la aplicación móvil hecha en Android en el que presenta la dirección de red de una clase de Ip, su Ip inicial y final valida, además de calcular las subredes que se requieran calculando la nueva mascará de red e imprimiendo la N cantidad de subredes. En donde se calcula con logaritmo base N (número de redes ingresado) entre log base dos, se redondea hacia arriba.
-<img align="center" src="https://media.giphy.com/media/SwfiLmelrWpM2QSeHB/giphy.gif" alt="App SubNetting" >
 
 ## Comenzando 🚀👨‍💻🚀
 
